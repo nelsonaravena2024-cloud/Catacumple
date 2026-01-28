@@ -32,16 +32,16 @@ export default function CardStackScroll() {
       </StackCard>
       <StackCard index={1} scrollYProgress={scrollYProgress}>
         <ActionAreaCard nombreTitutar='Fran Rivera' relacionTItular="Amiga" tituloBackCard="Amiga mia.." descripcionBackCard="Te amo mejor amiga eres la mejor" subtituloBackCard="Eres la mejor amiga deseada uwu" imagenPErsonal={[
-          '/images/amors.jpg',
           '/images/fran.jpg',
-          '/images/SofiaReyes.jpg',
+          '/images/fran2.jpg',
+          '/images/fran3.jpg',
         ]} />
       </StackCard>
       <StackCard index={2} scrollYProgress={scrollYProgress}>
         <ActionAreaCard nombreTitutar='Nelson Aravena' relacionTItular="Pareja" tituloBackCard="Amor mio" descripcionBackCard="Feliz cumpleaños, amor mío 💖. Cada día a tu lado es un regalo, y hoy quiero celebrar todo lo maravilloso que eres. Que este nuevo año de vida te traiga tanta alegría como la que tú me das a mí." subtituloBackCard="Eres lo mejor" imagenPErsonal={[
           '/images/amors.jpg',
           '/images/amors2.jpg',
-          '/images/amors3.ppg',
+          '/images/amors3.png',
         ]} />
       </StackCard>
       <StackCard index={3} scrollYProgress={scrollYProgress}>
