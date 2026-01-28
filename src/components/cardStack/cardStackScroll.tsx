@@ -24,38 +24,38 @@ export default function CardStackScroll() {
     >
       <StackCard index={0} scrollYProgress={scrollYProgress}>
         <ActionAreaCard nombreTitutar='Sofía Reyes' relacionTItular="Mamá" tituloBackCard="Hija mía.." descripcionBackCard="Te amo demasiado feliz cumpleaños" subtituloBackCard="Te amo mucho" imagenPErsonal={[
-          'public/images/amors.jpg',
-          'public/images/fran.jpg',
-          'public/images/SofiaReyes.jpg',
+          '/images/amors.jpg',
+          '/images/fran.jpg',
+          '/images/SofiaReyes.jpg',
         ]}
         />
       </StackCard>
       <StackCard index={1} scrollYProgress={scrollYProgress}>
         <ActionAreaCard nombreTitutar='Fran Rivera' relacionTItular="Amiga" tituloBackCard="Amiga mia.." descripcionBackCard="Te amo mejor amiga eres la mejor" subtituloBackCard="Eres la mejor amiga deseada uwu" imagenPErsonal={[
-          'public/images/amors.jpg',
-          'public/images/fran.jpg',
-          'public/images/SofiaReyes.jpg',
+          '/images/amors.jpg',
+          '/images/fran.jpg',
+          '/images/SofiaReyes.jpg',
         ]} />
       </StackCard>
       <StackCard index={2} scrollYProgress={scrollYProgress}>
-        <ActionAreaCard nombreTitutar='Nelson Aravena' relacionTItular="Pareja" tituloBackCard="Amor mio" descripcionBackCard="Te amo demasiado feliz cumpleaños" subtituloBackCard="Eres lo mejor" imagenPErsonal={[
-          'public/images/amors.jpg',
-          'public/images/fran.jpg',
-          'public/images/SofiaReyes.jpg',
+        <ActionAreaCard nombreTitutar='Nelson Aravena' relacionTItular="Pareja" tituloBackCard="Amor mio" descripcionBackCard="Feliz cumpleaños, amor mío 💖. Cada día a tu lado es un regalo, y hoy quiero celebrar todo lo maravilloso que eres. Que este nuevo año de vida te traiga tanta alegría como la que tú me das a mí." subtituloBackCard="Eres lo mejor" imagenPErsonal={[
+          '/images/amors.jpg',
+          '/images/amors2.jpg',
+          '/images/amors3.ppg',
         ]} />
       </StackCard>
-          <StackCard index={3} scrollYProgress={scrollYProgress}>
+      <StackCard index={3} scrollYProgress={scrollYProgress}>
         <ActionAreaCard nombreTitutar='Nelson Aravena' relacionTItular="Pareja" tituloBackCard="Amor mio" descripcionBackCard="Te amo demasiado feliz cumpleaños" subtituloBackCard="Eres lo mejor" imagenPErsonal={[
-          'public/images/amors.jpg',
-          'public/images/fran.jpg',
-          'public/images/SofiaReyes.jpg',
+          '/images/amors.jpg',
+          '/images/fran.jpg',
+          '/images/SofiaReyes.jpg',
         ]} />
       </StackCard>
-          <StackCard index={4} scrollYProgress={scrollYProgress}>
+      <StackCard index={4} scrollYProgress={scrollYProgress}>
         <ActionAreaCard nombreTitutar='Nelson Aravena' relacionTItular="Pareja" tituloBackCard="Amor mio" descripcionBackCard="Te amo demasiado feliz cumpleaños" subtituloBackCard="Eres lo mejor" imagenPErsonal={[
-          'public/images/amors.jpg',
-          'public/images/fran.jpg',
-          'public/images/SofiaReyes.jpg',
+          '/images/amors.jpg',
+          '/images/fran.jpg',
+          '/images/SofiaReyes.jpg',
         ]} />
       </StackCard>
 
