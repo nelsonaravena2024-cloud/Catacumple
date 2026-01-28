@@ -1,0 +1,10 @@
+:root{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.front,
+.back {
+  backface-visibility: hidden;
+}
