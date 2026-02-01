@@ -22,6 +22,7 @@ export default function CardStackScroll() {
         height: `${CARD_COUNT * 100}vh`,
         px: 1,
         pt: 10,
+        
       }}
     >
       <StackCard index={0} total={CARD_COUNT} scrollYProgress={scrollYProgress}>
@@ -30,7 +31,7 @@ export default function CardStackScroll() {
           relacionTItular="Mamá"
           tituloBackCard="Hija mía.."
           descripcionBackCard="Te amo demasiado feliz cumpleaños"
-          subtituloBackCard="Te amo mucho"
+          subtituloBackCard="Te amo mucho hija.."
           imagenPErsonal={[
             "/images/SofiaReyes3.jpg",
             "/images/SofiaReyes2.jpg",
@@ -43,10 +44,9 @@ export default function CardStackScroll() {
         <ActionAreaCard
           nombreTitutar="Johana Lillo"
           relacionTItular="Prima y hermana"
-          tituloBackCard="Prima mia.."
-          descripcionBackCard={`Feliz cumpleaños, mi querida Catalina 🎂✨
-Hoy celebro mucho más que tu cumpleaños: celebro tu vida, tu historia y la mujer increíble que eres. Para mí no eres solo mi prima, eres mi hermana del alma. Tu fortaleza me inspira, tu constancia me enseña y tu garra me recuerda que siempre se puede seguir adelante, incluso cuando el camino se vuelve cuesta arriba. Admiro profundamente la forma en que amas a tu familia, cómo cuidas, sostienes y das sin medida. Has sabido levantarte una y otra vez, con valentía, con coraje y con un corazón enorme. Gracias por ser ejemplo, por no rendirte, por creer y seguir avanzando. Quiero que nunca olvides cuánto te amo y cuánto te admiro, y lo orgullosa que estoy de ti. Que la vida te devuelva multiplicado todo el amor que entregas. Mereces lo mejor hoy y siempre.`}
-          subtituloBackCard="Eres la mejor amiga deseada uwu"
+          tituloBackCard="Feliz cumpleaños, mi querida Catalina 🎂✨"
+          descripcionBackCard={`Hoy celebro mucho más que tu cumpleaños: celebro tu vida, tu historia y la mujer increíble que eres. Para mí no eres solo mi prima, eres mi hermana del alma. Tu fortaleza me inspira, tu constancia me enseña y tu garra me recuerda que siempre se puede seguir adelante, incluso cuando el camino se vuelve cuesta arriba. Admiro profundamente la forma en que amas a tu familia, cómo cuidas, sostienes y das sin medida. Has sabido levantarte una y otra vez, con valentía, con coraje y con un corazón enorme. Gracias por ser ejemplo, por no rendirte, por creer y seguir avanzando. Quiero que nunca olvides cuánto te amo y cuánto te admiro, y lo orgullosa que estoy de ti. Que la vida te devuelva multiplicado todo el amor que entregas. Mereces lo mejor hoy y siempre.`} 
+          subtituloBackCard="Catalina, admiro tu fortaleza y tu gran corazón."
           imagenPErsonal={["/images/Johana.jpg"]}
         />
       </StackCard>
@@ -57,7 +57,7 @@ Hoy celebro mucho más que tu cumpleaños: celebro tu vida, tu historia y la muj
           relacionTItular="Pareja"
           tituloBackCard="Amor mio.."
           descripcionBackCard="Feliz cumpleaños, amor mío 💖. Cada día a tu lado es un regalo, y hoy quiero celebrar todo lo maravilloso que eres. Que este nuevo año de vida te traiga tanta alegría como la que tú me das a mí."
-          subtituloBackCard="Eres lo mejor"
+          subtituloBackCard="Te amo infinitamente <3"
           imagenPErsonal={[
             "/images/amors.jpg",
             "/images/amors2.jpg",
@@ -72,7 +72,7 @@ Hoy celebro mucho más que tu cumpleaños: celebro tu vida, tu historia y la muj
           relacionTItular="Hermano Menor"
           tituloBackCard="Hermana mia.."
           descripcionBackCard="Te qro mucho catu Gracias por apañar tanto y soportarnos tanto"
-          subtituloBackCard="Eres lo mejor"
+          subtituloBackCard="Eres la mejor"
           imagenPErsonal={[
             "/images/JoseReyes.jpg",
             "/images/JoseReyes2.jpg",

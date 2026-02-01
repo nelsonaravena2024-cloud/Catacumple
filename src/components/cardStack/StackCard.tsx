@@ -43,7 +43,7 @@ export default function StackCard({
   );
 
   // 🔹 Opacidad (todas se mantienen visibles)
-  const opacity = 1;
+  const opacity = 8;
 
   return (
     <Box
@@ -54,6 +54,7 @@ export default function StackCard({
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
+        
       }}
     >
       <motion.div

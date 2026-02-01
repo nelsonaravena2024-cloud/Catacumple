@@ -26,12 +26,13 @@ export default function ActionAreaCard({ nombreTitutar, relacionTItular, tituloB
       <MotionBox
         sx={{
           width: 350,
-          height: 630,
+          height: 720,
           perspective: 1000,
           display: 'flex',
           justifyContent: 'center',
           bgcolor: '#fefeff',
           alignItems: 'center',
+          boxShadow: 3
         }}
         onClick={() => setFlipped((prev) => !prev)}
       >
@@ -59,7 +60,7 @@ export default function ActionAreaCard({ nombreTitutar, relacionTItular, tituloB
             }}
           >
             <CardMedia sx={{ flexShrink: 0 }}>
-              <ImageCarousel images={imagenPErsonal} height={360} />
+              <ImageCarousel images={imagenPErsonal} height={390} />
             </CardMedia>
 
             <CardContent
@@ -129,7 +130,7 @@ export default function ActionAreaCard({ nombreTitutar, relacionTItular, tituloB
                 <Typography variant="body1" sx={{ mt: 2, display: 'flex', gap: 1, color: '#2a1f19' }}>
                   <Sparkles color='#FF7F3B' /> ¡UN MENSAJE ESPECIAL! <Sparkles color='#FF7F3B' />
                 </Typography>
-                <Typography variant="h4" sx={{ maxWidth: 280, mt: 4, fontFamily: 'Playfair Display', color: '#2a1f19' }}>
+                <Typography variant="h5" sx={{ maxWidth: 280, mt: 4, fontFamily: 'Playfair Display', color: '#2a1f19' }}>
                   {tituloBackCard}
                 </Typography>
 
@@ -140,7 +141,7 @@ export default function ActionAreaCard({ nombreTitutar, relacionTItular, tituloB
                 <Box sx={{ mt: 3 }}>
                   <Heart color='pink' />
 
-                  <Typography variant='h6' sx={{ fontFamily: 'Playfair Display', color: '#FF7F3B', fontStyle: 'italic' }}>
+                  <Typography variant='h5' sx={{ fontFamily: 'Playfair Display', color: '#FF7F3B', fontStyle: 'italic' }}>
                     {subtituloBackCard}
                   </Typography>
                 </Box>
