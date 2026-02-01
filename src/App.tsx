@@ -7,7 +7,7 @@ import { useWindowSize } from 'usehooks-ts'
 import CardStackScroll from './components/cardStack/cardStackScroll'
 import TenorGif from './components/TenorGifProps'
 import { motion } from 'framer-motion'
-import { Gift, Heart, Smile, Star } from 'lucide-react'
+import { Gift, Heart, Trophy, BicepsFlexed, Flower2 } from 'lucide-react'
 import BackgroundMusic from './components/msuic/BackgroundMusic'
 
 function App() {
@@ -187,10 +187,31 @@ function App() {
 
         <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 6, justifyContent: 'center', maxWidth: 1000 }}>
           {[
-            { icon: Heart, color: '#f06292', title: 'Amorosa', desc: 'Su ternura y cariño tocan cada corazón que conoce' },
-            { icon: Star, color: '#ffd54f', title: 'Brillante', desc: 'Su inteligencia y creatividad iluminan cada proyecto y conversación' },
-            { icon: Smile, color: '#ff9800', title: 'Alegre', desc: 'Su alegría y energía contagian felicidad a todos a su alrededor' },
-            { icon: Gift, color: '#e91e63', title: 'Generosa', desc: 'Su generosidad y bondad hacen que todos se sientan valorados y amados' },
+            {
+              icon: Trophy,
+              color: '#f06292',
+              title: 'Luchona',
+              desc: 'No se rinde ante las dificultades y siempre sigue adelante, incluso cuando el camino se vuelve cuesta arriba.'
+            },
+            {
+              icon: BicepsFlexed,
+              color: '#ffd54f',
+              title: 'Coraje',
+              desc: 'Enfrenta los desafíos con valentía y determinación, tomando decisiones firmes incluso en los momentos más difíciles.'
+            },
+            {
+              icon: Flower2,
+              color: '#ff9800',
+              title: 'Resiliencia',
+              desc: 'Tiene la capacidad de levantarse una y otra vez, transformando las caídas en aprendizaje y crecimiento.'
+            },
+            {
+              icon: Heart,
+              color: '#e91e63',
+              title: 'Amorosa',
+              desc: 'Entrega cariño sincero y apoyo incondicional, haciendo sentir amados y acompañados a quienes la rodean.'
+            },
+
 
           ].map((item, index) => (
             <motion.div

@@ -133,10 +133,10 @@ export default function ActionAreaCard({ nombreTitutar, relacionTItular, tituloB
                   {tituloBackCard}
                 </Typography>
 
-                <Typography variant="h6" sx={{ mt: 2, color: '#2a1f19', textAlign: 'center' }}>
+                <Typography variant="body2" sx={{ mt: 2, color: '#2a1f19', textAlign: 'center' }}>
                   {descripcionBackCard}
                 </Typography>
-
+                
                 <Box sx={{ mt: 3 }}>
                   <Heart color='pink' />
 
