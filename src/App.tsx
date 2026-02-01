@@ -135,7 +135,7 @@ function App() {
             </Typography>
             <Typography variant="h2" sx={{ color: '#7b1fa2', fontSize: { xs: '1.5rem', lg: '2.2rem' }, lineHeight: 1.5, flex: 1 }}>
               Estos son los <strong>deseos más sinceros</strong> y los <strong>sentimientos profundos</strong> que todos tenemos por ti.
-              Cada palabra refleja el amor y la admiración que sentimos por tu increíble forma de ser.
+              Cada palabra refleja el amor y la admiración que sentimos por tu increíble forma de ser!.
             </Typography>
           </Box>
         </Box>
