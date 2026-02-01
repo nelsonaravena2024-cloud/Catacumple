@@ -147,7 +147,6 @@ function App() {
           display: 'grid',
           alignItems: 'center',
           justifyContent: 'center',
-          px: { sm: 4, md: 8 },
         }}
       >
         <CardStackScroll />
@@ -267,48 +266,48 @@ function App() {
           ))}
         </Box>
 
-        <Box sx={{mt:25}}>
+        <Box sx={{ mt: 25 }}>
           <motion.div
-  initial={{ opacity: 0, y: 40 }}
-  whileInView={{ opacity: 1, y: 0 }}
-  transition={{ duration: 0.8 }}
-  viewport={{ once: true }}
->
-  <Box
-    sx={{
-      mt: 14,
-      textAlign: 'center',
-      px: { xs: 2, sm: 4 },
-    }}
-  >
-    <Typography
-      variant="h4"
-      sx={{
-        color: '#ab47bc',
-        fontWeight: 800,
-        mb: 3,
-      }}
-    >
-      💖 Gracias infinitas
-    </Typography>
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: true }}
+          >
+            <Box
+              sx={{
+                mt: 14,
+                textAlign: 'center',
+                px: { xs: 2, sm: 4 },
+              }}
+            >
+              <Typography
+                variant="h4"
+                sx={{
+                  color: '#ab47bc',
+                  fontWeight: 800,
+                  mb: 3,
+                }}
+              >
+                💖 Gracias infinitas
+              </Typography>
 
-    <Typography
-      variant="body1"
-      sx={{
-        color: '#7b1fa2',
-        maxWidth: 800,
-        mx: 'auto',
-        fontSize: '1.15rem',
-        lineHeight: 1.8,
-      }}
-    >
-      Nada de esto habría sido posible sin las personas que pusieron su tiempo,
-      su cariño y su corazón para crear esta sorpresa.
-      <br /><br />
-      💕
-    </Typography>
-  </Box>
-</motion.div>
+              <Typography
+                variant="body1"
+                sx={{
+                  color: '#7b1fa2',
+                  maxWidth: 800,
+                  mx: 'auto',
+                  fontSize: '1.15rem',
+                  lineHeight: 1.8,
+                }}
+              >
+                Nada de esto habría sido posible sin las personas que pusieron su tiempo,
+                su cariño y su corazón para crear esta sorpresa.
+                <br /><br />
+                💕
+              </Typography>
+            </Box>
+          </motion.div>
 
         </Box>
       </Container>

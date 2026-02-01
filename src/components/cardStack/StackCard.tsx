@@ -30,12 +30,12 @@ export default function StackCard({
 
   return (
     <MotionCard
-      elevation={8}
+      elevation={6}
       style={{
         scale,
         y,
         position: "sticky",
-        top: 65,
+        top: 60,
         borderRadius: 15,
         marginBottom: 140,
       }}

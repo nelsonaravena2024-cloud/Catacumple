@@ -18,8 +18,8 @@ export default function CardStackScroll() {
       ref={containerRef}
       sx={{
         height: "500vh",
-        px: 2,
-        pt: 15,
+        px: 1,
+        pt: 10,
       }}
     >
       <StackCard index={0} scrollYProgress={scrollYProgress}>
