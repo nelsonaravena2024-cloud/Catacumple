@@ -45,7 +45,13 @@ export default function CardStackScroll() {
           nombreTitutar="Johana Lillo"
           relacionTItular="Prima y hermana"
           tituloBackCard="Feliz cumpleaños, mi querida Catalina 🎂✨"
-          descripcionBackCard={`Hoy celebro mucho más que tu cumpleaños: celebro tu vida, tu historia y la mujer increíble que eres. Para mí no eres solo mi prima, eres mi hermana del alma. Tu fortaleza me inspira, tu constancia me enseña y tu garra me recuerda que siempre se puede seguir adelante, incluso cuando el camino se vuelve cuesta arriba. Admiro profundamente la forma en que amas a tu familia, cómo cuidas, sostienes y das sin medida. Has sabido levantarte una y otra vez, con valentía, con coraje y con un corazón enorme. Gracias por ser ejemplo, por no rendirte, por creer y seguir avanzando. Quiero que nunca olvides cuánto te amo y cuánto te admiro, y lo orgullosa que estoy de ti. Que la vida te devuelva multiplicado todo el amor que entregas. Mereces lo mejor hoy y siempre.`} 
+          descripcionBackCard={`Hoy celebro mucho más que tu cumpleaños: celebro tu vida, tu historia y la mujer increíble que eres. Para mí no eres solo mi prima, eres mi hermana del alma. 
+            
+            Tu fortaleza me inspira, tu constancia me enseña y tu garra me recuerda que siempre se puede seguir adelante, incluso cuando el camino se vuelve cuesta arriba. 
+            
+            Admiro profundamente la forma en que amas a tu familia, cómo cuidas, sostienes y das sin medida. Has sabido levantarte una y otra vez, con valentía, con coraje y con un corazón enorme. 
+            
+            Gracias por ser ejemplo, por no rendirte, por creer y seguir avanzando. Quiero que nunca olvides cuánto te amo y cuánto te admiro, y lo orgullosa que estoy de ti. Que la vida te devuelva multiplicado todo el amor que entregas. Mereces lo mejor hoy y siempre.`} 
           subtituloBackCard="Catalina, admiro tu fortaleza y tu gran corazón."
           imagenPErsonal={["/images/Johana.jpg"]}
         />

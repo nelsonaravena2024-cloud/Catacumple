@@ -134,9 +134,26 @@ export default function ActionAreaCard({ nombreTitutar, relacionTItular, tituloB
                   {tituloBackCard}
                 </Typography>
 
-                <Typography variant="body2" sx={{ mt: 2, color: '#2a1f19', textAlign: 'center' }}>
-                  {descripcionBackCard}
-                </Typography>
+           <Box
+  sx={{
+    mt: 2,
+    maxHeight: 260,        // 👈 ajusta según tu diseño
+    overflowY: 'auto',
+    pr: 1,                // espacio para scrollbar
+  }}
+>
+  <Typography
+    variant="h6"
+    sx={{
+      color: '#2a1f19',
+      textAlign: 'center',
+      whiteSpace: 'pre-line', // 👈 respeta saltos de línea del texto
+    }}
+  >
+    {descripcionBackCard}
+  </Typography>
+</Box>
+
                 
                 <Box sx={{ mt: 3 }}>
                   <Heart color='pink' />
